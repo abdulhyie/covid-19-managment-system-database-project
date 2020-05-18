@@ -55,7 +55,7 @@ main{
 }
 
 .mainIntro{
-    background-image: url(https://abdulhyie.github.io/database-project/web/imgs/worldmask.jpg);
+    background-image: url("https://abdulhyie.github.io/database-project/web/imgs/worldmask.jpg");
     background-size: cover;
     align-items: center;
 }
