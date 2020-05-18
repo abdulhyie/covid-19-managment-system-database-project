@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:oldlace;
+}
+
+header{
+    background-color: lightcyan;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logoContainer img{
+    height: 15vh;
+}
+
+.logoContainer{
+    flex: 0.9;
+}
+
+.navLinks ul{
+    display: flex;
+    list-style: none;
+    margin-left: 50px;
+}
+
+.navLinks a:hover{
+    background-color: rgb(165, 165, 165);
+}
+
+.navLinks a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(82, 82, 82);
+    border-radius: 4px;
+}
+
+.navLinks a.selectedItem{
+    background-color: rgb(96, 96, 255);
+    color: white;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+.mainIntro{
+    background-image: url(https://abdulhyie.github.io/databaseProject/web/imgs/worldmask.jpg);
+    background-size: cover;
+    align-items: center;
+}
+
+.intro{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: rgba(29, 29, 29, 0.5);
+}
+
+.intro h1{
+    font-size: 50px;
+    color: oldlace;
+}
+
+.intro p{
+    margin-top: 10px;;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: oldlace;
+}
+
+.management{
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.management p{
+    margin: 50px 10px 100px 10px;
+    color: oldlace;
+    font-weight: 30;
+}
+
+.management h2{
+    margin-top: 10px;
+    color: oldlace;
+}
+
+.management h3{
+    color: mintcream;
+    margin-bottom: 35px;
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 1px solid oldlace;
+    border-radius: 5px;
+}
+
+.management h3:hover{
+    color: rgb(65, 65, 65);
+    background-color: oldlace;
+}
+
+.isolationWards{
+    background-color: #AEBFBF;
+}
+
+.quarantineCenters{
+    background-color: #747F7F;
+}
+
+.patientsRecords{
+    background-color: #3A4040;
+}
+
+
+
+
