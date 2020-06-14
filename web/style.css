@@ -9,6 +9,7 @@ body{
     background-color:oldlace;
 }
 
+/*HEADER STYLE*/
 header{
     background-color: lightcyan;
     width: 90%;
@@ -27,6 +28,7 @@ header{
 
 .navLinks ul{
     display: flex;
+    margin-top: 30px;
     list-style: none;
     margin-left: 50px;
 }
@@ -55,7 +57,7 @@ main{
 }
 
 .mainIntro{
-    background-image: url("https://abdulhyie.github.io/database-project/web/imgs/worldmask.jpg");
+    background-image: url(https://abdulhyie.github.io/database-project/web/imgs/worldmask.jpg);
     background-size: cover;
     align-items: center;
 }
@@ -82,7 +84,7 @@ main{
 .management{
     display: flex;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .management p{
@@ -122,6 +124,202 @@ main{
     background-color: #3A4040;
 }
 
+/*PATIENT RECORD PAGE STYLE*/
+.options{
+    text-align: center;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+}
+
+.options h1{
+    font-size: 200%;
+    padding-top: 30px;
+}
+
+.buttons ul{
+    margin-top: 70px;
+    list-style: none;
+    text-align: center;
+}
+
+.buttons li{
+    margin-right: 30px;
+    display: inline-block;
+}
 
 
+.add{
+    padding: 20px 25px 20px 25px;
+}
 
+.update{
+    padding: 20px 10px 20px 10px;
+}
+
+.search{
+    padding: 20px 10px 20px 10px;
+}
+
+.delete{
+    padding: 20px 10px 20px 10px;
+    border: 3px solid red;
+    text-decoration: none;
+}
+
+.add, .update, .search{
+    border: 3px solid green;
+    text-decoration: none;
+}
+
+.add:hover, .update:hover, .search:hover{
+    background-color: green;
+    color: white;
+}
+
+.delete:hover{
+    background-color: red;
+    color: white;
+}
+
+/*FORM STYLE*/
+
+form{
+    background-color: whitesmoke;
+    align-items: center;
+}
+
+legend{
+    margin-left: 45%;
+    font-size: x-large;
+    margin-bottom: 3%;
+}
+
+fieldset{
+    padding-left: 30px;
+}
+
+.text-inputs label{
+    padding-left: 10%;
+}
+
+.radio-inputs{
+    text-align: left;
+}
+
+.radio-inputs label{
+    font-weight: bold;
+}
+
+input[type=text]{
+    padding: 12px 20px;
+    margin: 8px 0 15px 0px;
+    width: 210%;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    background: none;
+    outline: none;
+}
+
+input[type=text]:focus{
+    border: 3px solid lightblue;
+}
+
+input[type=submit]{
+    margin-left: 45%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 12px 20px;
+    border: 3px solid lightgreen;
+}
+
+input[type=submit]:hover{
+    background-color: lightgreen;
+    color: white;
+}
+
+.inputs{
+    display: flex;
+}
+
+.text-inputs{
+    margin-right: 30%;
+}
+
+.radio-inputs{
+    padding-left: 150px;
+    border-left: 3px solid rgb(53, 53, 53);
+}
+
+.search-inputs input{
+    width: 80%;
+}
+
+.search-inputs{
+    padding-left: 10%;
+}
+
+.delete-inputs{
+    padding-left: 10%;
+}
+
+.delete-inputs input{
+    width: 80%;
+}
+
+.delete-btn input[type=submit]{
+    background-color: none;
+    border: none;
+    border: 3px solid red;
+}
+
+.delete-btn input[type=submit]:hover{
+    background-color: red;
+    color: white;
+}
+
+
+/*FOOTER STYLE*/
+footer{
+    display: flex;
+    text-align: center;
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+.footerLeft img{
+    height: 20vh;
+    margin-left: 80px;
+    margin-top: 60px;
+    padding-right: 100px;
+    border-right: 3px solid white;
+}
+
+.footerMid{
+    margin: 50px 100px 30px 130px;
+}
+
+.footerMid a, ul{
+    margin-bottom: 20px;
+    text-decoration: none;
+    list-style: none;
+    color: wheat;
+}
+
+.footerRight{
+    margin: 50px 100px 30px 140px;
+}
+
+.footerRight a, ul{
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 20px;
+    color: wheat;
+}
+
+
+.copyright{
+    padding-left: 100px;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en-us">
+    <meta charset='utf-8'>
+    <title>Delete Patient Record</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="meinHeader">
+        <section class="logoContainer">
+            <a href="index.html">
+                <img src="imgs/logo.png" alt="CICADA Logo">
+            </a>
+        </section>
+        <section class="navLinks">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a class="selectedItem" href="#">Management</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <br> <br>
+        <form id="form1" name="form1" method="post" action=""  >
+            <fieldset>
+                <legend>Delete Patient</legend>
+                <section class="delete-inputs">
+                    <label for="w-id">Ward ID</label><br>
+                    <input type="text" name="ward_id" placeholder="Ward ID">
+                    <br>
+                    <label for="p-id">Patient ID</label><br>
+                    <input type="text" name="p-id" placeholder="Patient ID">
+                </section>
+                <section class="delete-btn">
+                    <input type="submit" name="submit" value="Delete">
+                </section>
+            </fieldset>
+        </form>
+    </main>
+    <footer class = "footer">
+        <section class="footerLeft">
+            <a href="index.html">
+                <img src="imgs/logo.png" alt="CICADA's Logo">
+            </a>
+        </section>
+        <section class="footerMid">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="#">Symptoms</a></li>
+                <li><a href="#">Preventions</a></li>
+                <li><a href="#">Get Help</a></li>
+            </ul>
+        </section>
+        <section class="footerRight">
+            <h2>Navigate</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Management</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </section>
+    </footer>
+    <section class="copyright">
+        <p>All right reserved &#169; 2020. CICADA Technologies.</p>
+    </section>
+</body>
+</html>

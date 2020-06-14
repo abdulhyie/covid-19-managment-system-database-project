@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head lang="en-us">
+    <meta charset='utf-8'>
+    <title>Add Patient Record</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="meinHeader">
+        <section class="logoContainer">
+            <a href="index.html">
+                <img src="imgs/logo.png" alt="CICADA Logo">
+            </a>
+        </section>
+        <section class="navLinks">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a class="selectedItem" href="#">Management</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <br> <br>
+        <form id="form1" name="form1" method="post" action=""  >
+            <fieldset>
+                <legend>Add Patient</legend>
+                <section class="inputs">
+                    <section class="text-inputs">
+                        <label for="w-id">Ward ID</label><br>
+                        <input type="text" name="ward_id" placeholder="Ward ID">
+                        <br>
+                        <label for="p-id">Patient ID</label><br>
+                        <input type="text" name="pt_id" placeholder="Patient ID">
+                        <br>
+                        <label for="p-name">Patiet Name</label><br>
+                        <input type="text" name="pt_name" placeholder="Patient's Name">
+                        <br>
+                        <label for="p-age">Patient Age</label><br>
+                        <input type="text" name="age" placeholder="Patient's Age">
+                        <br>
+                        <label for="p-phone">Patient Phone</label><br>
+                        <input type="text" name="phone" placeholder="Patient's Phone No.">
+                        <br>
+                        <label for="p-address">Patient Address</label><br>
+                        <input type="text" name="address" placeholder="Patient's Address">
+                        <br>
+                    </section>
+                    <section class="radio-inputs">
+                        <label for="p-gender">Gender</label><br>
+                        <input type="radio" name="gender" value="male"> Male
+                        <br>
+                        <input type="radio" name="gender" value="female"> Female
+                        <br>
+                        <input type="radio" name="gender" value="other"> Other
+                        <br>
+                        <label for="p-condition">Condition</label> <br>
+                        <input type="radio" name="condition" value="stable"> Stable
+                        <br>
+                        <input type="radio" name="condition" value="severe"> Severe
+                        <br>
+                        <input type="radio" name="condition" value="critical"> Critical
+                        <br>
+                        <label for="p-test-result">COVID-19 Test Result</label><br>
+                        <input type="radio" name="test_res" value="positive"> Positive
+                        <br>
+                        <input type="radio" name="test_res" value="negative"> Negative
+                        <br>
+                    </section>
+                </section>
+                <input type="submit" name="submit" value="Submit">
+            </fieldset>
+        </form>
+    </main>
+    <footer class = "footer">
+        <section class="footerLeft">
+            <a href="index.html">
+                <img src="imgs/logo.png" alt="CICADA's Logo">
+            </a>
+        </section>
+        <section class="footerMid">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="#">Symptoms</a></li>
+                <li><a href="#">Preventions</a></li>
+                <li><a href="#">Get Help</a></li>
+            </ul>
+        </section>
+        <section class="footerRight">
+            <h2>Navigate</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Management</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </section>
+    </footer>
+    <section class="copyright">
+        <p>All right reserved &#169; 2020. CICADA Technologies.</p>
+    </section>
+</body>
+</html>
