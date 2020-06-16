@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:oldlace;
+}
+
+/*HEADER STYLE*/
+header{
+    background-color: lightcyan;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logoContainer img{
+    height: 15vh;
+}
+
+.logoContainer{
+    padding-left: 45%;
+
+}
+
+main{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    text-decoration: none;
+}
+
+p{
+    text-decoration: none;
+}
+
+.intro{
+    padding-bottom: 50px;
+}
+
+.symptoms{
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.symptoms .inner{
+    margin-left: 30px;
+}
+
+.preventions{
+    text-align: left;
+    margin-bottom: 50px;
+}

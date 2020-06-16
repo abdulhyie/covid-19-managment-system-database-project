@@ -60,6 +60,44 @@ header{
     color: white;
 }
 
+.covid-stats{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.covid-stats .deaths{
+    color: red;
+}
+
+.covid-stats .recovered{
+    color: green;
+}
+
+.covid-stats .cases{
+    color: grey;
+}
+
+.pk-covid-stats{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.pk-covid-stats .deaths{
+    color: red;
+}
+
+.pk-covid-stats .recovered{
+    color: green;
+}
+
+.pk-covid-stats .cases{
+    color: grey;
+}
+
 main{
     width: 90%;
     margin: auto;
