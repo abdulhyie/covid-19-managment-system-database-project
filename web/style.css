@@ -93,7 +93,7 @@ main{
 
 .mainIntro ul{
     margin-left: 37%;
-    padding-bottom: 140px;
+    padding-bottom: 50px;
 }
 
 .mainIntro li{
@@ -108,6 +108,11 @@ main{
     border-radius: 50px;
     box-shadow: rgb(82, 82, 82);
     color: whitesmoke;
+}
+
+.preventions{
+    margin-left: 32.5%;
+    padding-bottom: 120px;
 }
 
 .management{
@@ -304,6 +309,30 @@ input[type=submit]:hover{
 .delete-btn input[type=submit]:hover{
     background-color: red;
     color: white;
+}
+
+.login input[type=text], input[type=password]{
+    width: 30%;
+    padding: initial;
+    padding: 10px 20px;
+    border: initial;
+    border-radius: 5px;
+    background-color: lavender;
+}
+
+.login *{
+    margin-left: 35%;
+}
+
+.login input[type=text]{
+    margin-left: 35%;
+}
+
+.login label{
+    margin: initial;
+    padding: initial;
+    margin-left: 45%;
+
 }
 
 /*FOOTER STYLE*/
