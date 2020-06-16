@@ -17,15 +17,15 @@
         </section>
         <section class="navLinks">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a class="selectedItem" href="#">Management</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="selectedItem" href="index.html">Management</a></li>
                 <li><a href="#">About</a></li>
             </ul>
         </section>
     </header>
     <main>
         <br> <br>
-        <form id="form1" name="form1" method="post" action=""  >
+        <form id="form1" name="form1" method="post" action="general.php" target="_blank" >
             <fieldset>
                 <legend style="margin-left: 43%;">Update Patient</legend>
                 <section class="inputs">
@@ -58,11 +58,11 @@
                         <input type="radio" name="gender" value="other"> Other
                         <br>
                         <label for="p-condition">Condition</label> <br>
-                        <input type="radio" name="condition" value="stable"> Stable
+                        <input type="radio" name="pt_condition" value="stable"> Stable
                         <br>
-                        <input type="radio" name="condition" value="severe"> Severe
+                        <input type="radio" name="pt_condition" value="severe"> Severe
                         <br>
-                        <input type="radio" name="condition" value="critical"> Critical
+                        <input type="radio" name="pt_condition" value="critical"> Critical
                         <br>
                         <label for="p-test-result">COVID-19 Test Result</label><br>
                         <input type="radio" name="test_res" value="positive"> Positive
@@ -71,7 +71,7 @@
                         <br>
                     </section>
                 </section>
-                <input type="submit" name="submit" value="Update">
+                <input type="submit" name="update" value="Update">
             </fieldset>
         </form>
     </main>

@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html>
-<head lang="en-us">
-    <meta charset='utf-8'>
-    <title>Search Patient Record</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="style.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isolation Ward Management</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="meinHeader">
@@ -17,27 +16,26 @@
         </section>
         <section class="navLinks">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li ><a href="index.html">Home</a></li>
                 <li><a class="selectedItem" href="patient-record.html">Management</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#">About</a></li>  
             </ul>
         </section>
     </header>
     <main>
-        <br> <br>
-        <form id="form1" name="form1" method="post" action="search.php" target="_blank" >
-            <fieldset>
-                <legend>Search Patient</legend>
-                <section class="search-inputs">
-                    <label for="w-id">Ward ID</label><br>
-                    <input type="text" name="ward_id" placeholder="Ward ID">
-                    <br>
-                    <label for="p-id">Patient ID</label><br>
-                    <input type="text" name="pt_id" placeholder="Patient ID">
-                </section>
-                <input type="submit" name="search" value="Search">
-            </fieldset>
-        </form>
+        <section class="options">
+            <h1>
+                Isolation Wards Management
+            </h1>
+            <section class="buttons">
+                <ul>
+                    <li><a href="add-iso.html" class="add">Add Record</a></li>
+                    <li><a href="update-iso.html" class="update">Update Record</a></li>
+                    <li><a href="search-iso.html" class="search">Search Record</a></li>
+                    <li><a href="delete-iso.html" class="delete">Delete Record</a></li>
+                </ul>
+            </section>
+        </section>
     </main>
     <footer class = "footer">
         <section class="footerLeft">

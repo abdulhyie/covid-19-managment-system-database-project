@@ -64,21 +64,41 @@ main{
 
 .intro{
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-color: rgba(29, 29, 29, 0.5);
+    padding-top: 130px;
+    padding-bottom: 50px;
 }
 
 .intro h1{
     font-size: 50px;
     color: oldlace;
+    background-color: rgba(29, 29, 29, 0.5);
 }
 
 .intro p{
     margin-top: 10px;;
     margin-left: 50px;
     margin-right: 50px;
+    background-color: rgba(29, 29, 29, 0.5);
     color: oldlace;
+}
+
+.mainIntro ul{
+    margin-left: 37%;
+    padding-bottom: 140px;
+}
+
+.mainIntro li{
+    display: inline;
+}
+
+.mainIntro a{
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: tomato;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: rgb(82, 82, 82);
+    color: whitesmoke;
 }
 
 .management{
@@ -122,6 +142,11 @@ main{
 
 .patientsRecords{
     background-color: #3A4040;
+}
+
+.reports{
+    padding: 100px;
+    background-color: rgb(96, 96, 255);
 }
 
 /*PATIENT RECORD PAGE STYLE*/

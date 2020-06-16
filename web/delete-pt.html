@@ -17,15 +17,15 @@
         </section>
         <section class="navLinks">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a class="selectedItem" href="#">Management</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="selectedItem" href="patient-record.html">Management</a></li>
                 <li><a href="#">About</a></li>
             </ul>
         </section>
     </header>
     <main>
         <br> <br>
-        <form id="form1" name="form1" method="post" action=""  >
+        <form id="form1" name="form1" method="post" action="general.php" target="_blank" >
             <fieldset>
                 <legend>Delete Patient</legend>
                 <section class="delete-inputs">
@@ -33,10 +33,10 @@
                     <input type="text" name="ward_id" placeholder="Ward ID">
                     <br>
                     <label for="p-id">Patient ID</label><br>
-                    <input type="text" name="p-id" placeholder="Patient ID">
+                    <input type="text" name="pt_id" placeholder="Patient ID">
                 </section>
                 <section class="delete-btn">
-                    <input type="submit" name="submit" value="Delete">
+                    <input type="submit" name="delete" value="Delete">
                 </section>
             </fieldset>
         </form>

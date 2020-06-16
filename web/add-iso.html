@@ -2,7 +2,7 @@
 <html>
 <head lang="en-us">
     <meta charset='utf-8'>
-    <title>Search Patient Record</title>
+    <title>Add Isolation Wards</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -25,17 +25,24 @@
     </header>
     <main>
         <br> <br>
-        <form id="form1" name="form1" method="post" action="search.php" target="_blank" >
+        <form id="form1" name="form1" action="general-iso.php" method="post" target="_blank" >
             <fieldset>
-                <legend>Search Patient</legend>
+                <legend style="margin-left: 40%;">Add Isolation Ward</legend>
                 <section class="search-inputs">
-                    <label for="w-id">Ward ID</label><br>
-                    <input type="text" name="ward_id" placeholder="Ward ID">
-                    <br>
-                    <label for="p-id">Patient ID</label><br>
-                    <input type="text" name="pt_id" placeholder="Patient ID">
+                    <label for="s-no">Serial No.</label><br>
+                    <input type="text" name="s_no" placeholder="Serial No."><br>
+                    <label for="s-no">District</label><br>
+                    <input type="text" name="district" placeholder="District"><br>
+                    <label for="s-no">Provinve</label><br>
+                    <input type="text" name="province" placeholder="Provinve"><br>
+                    <label for="s-no">Hospitals</label><br>
+                    <input type="text" name="hospital" placeholder="Hospitals"><br>
+                    <label for="s-no">Ventilators</label><br>
+                    <input type="text" name="ventilators" placeholder="Ventilators"><br>
+                    <label for="s-no">Beds</label><br>
+                    <input type="text" name="beds" placeholder="Beds"><br>
                 </section>
-                <input type="submit" name="search" value="Search">
+                <input type="submit" name="submit" value="Submit">
             </fieldset>
         </form>
     </main>
@@ -67,3 +74,4 @@
     </section>
 </body>
 </html>
+
