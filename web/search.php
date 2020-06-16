@@ -21,7 +21,7 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title>data extractor</title>
+ <title>All Patients</title>
 </head>
 <body>
  <table>

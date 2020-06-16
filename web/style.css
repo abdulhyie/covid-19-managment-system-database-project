@@ -30,7 +30,6 @@ header{
     display: flex;
     margin-top: 30px;
     list-style: none;
-    margin-left: 50px;
 }
 
 .navLinks a:hover{
@@ -44,6 +43,16 @@ header{
     padding: 10px;
     color: rgb(82, 82, 82);
     border-radius: 4px;
+}
+
+.navLinks button{
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: large;
+    font-weight: bold;
+    background: none;
+    border: none;
+    color: grey;
 }
 
 .navLinks a.selectedItem{
@@ -142,11 +151,6 @@ main{
 
 .patientsRecords{
     background-color: #3A4040;
-}
-
-.reports{
-    padding: 100px;
-    background-color: rgb(96, 96, 255);
 }
 
 /*PATIENT RECORD PAGE STYLE*/
@@ -301,7 +305,6 @@ input[type=submit]:hover{
     background-color: red;
     color: white;
 }
-
 
 /*FOOTER STYLE*/
 footer{

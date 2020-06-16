@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:oldlace;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+form{
+    display: inline-block;
+    padding: 20px 50px
+}
+
+fieldset{
+    padding: 50px 100px;
+}
+
+input{
+    padding: 30px 50px;
+    font-weight: lighter;
+}
+
+input[type=text]{
+    margin: unset;
+    padding: unset;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+fieldset input[type=submit]{
+    border: none;
+    color: whitesmoke;
+}
+
+fieldset input[type=submit]:hover{
+    border: 3px solid lightblue;
+}
+
+.all-reports input[type=submit]{
+    background-color: tomato;
+}
+
+.view-reports input[type=submit]{
+    background-color: teal;
+}
+
+.loc-reports input[type=submit]{
+    background-color: rgb(82, 82, 82);
+}
+
+/*HEADER STYLE*/
+header{
+    background-color: lightcyan;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logoContainer img{
+    height: 15vh;
+}
+
+.logoContainer{
+    flex: 0.9;
+}
+
+.navLinks ul{
+    display: flex;
+    margin-top: 30px;
+    list-style: none;
+    margin-left: 50px;
+}
+
+.navLinks a:hover{
+    background-color: rgb(165, 165, 165);
+}
+
+.navLinks a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(82, 82, 82);
+    border-radius: 4px;
+}
+
+.navLinks a.selectedItem{
+    background-color: rgb(96, 96, 255);
+    color: white;
+}
+
+
+/*FOOTER STYLE*/
+footer{
+    display: flex;
+    text-align: center;
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+.footerLeft img{
+    height: 20vh;
+    margin-left: 80px;
+    margin-top: 60px;
+    padding-right: 100px;
+    border-right: 3px solid white;
+}
+
+.footerMid{
+    margin: 50px 100px 30px 130px;
+}
+
+.footerMid a, ul{
+    margin-bottom: 20px;
+    text-decoration: none;
+    list-style: none;
+    color: wheat;
+}
+
+.footerRight{
+    margin: 50px 100px 30px 140px;
+}
+
+.footerRight a, ul{
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 20px;
+    color: wheat;
+}
+
+
+.copyright{
+    padding-left: 100px;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    padding-bottom: 20px;
+}
