@@ -1,6 +1,6 @@
 # database-project
 
-go to https://abdulhyie.github.io/database-project/web/index.html to get a working glimpse of the project.
+go to https://abdulhyie.github.io/covid-19-managment-system-database-project/web/index.html to get a working glimpse of the project.
 
 # Covid-19 Database Management System
 
