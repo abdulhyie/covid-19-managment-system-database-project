@@ -1,7 +1,5 @@
 # database-project
 
-go to https://abdulhyie.github.io/database-project/web/index.html to get a working glimpse of the project.
-
 # Covid-19 Management System Database System
 
 ## Documentation
@@ -10,6 +8,19 @@ go to https://abdulhyie.github.io/database-project/web/index.html to get a worki
 
 The outbreak of Coronavirus in the world has big implications for the world. The closure of higher education institutions as well as the broader measures undertaken in many countries to restrict mobility of citizens and increase social distancing hampers the regular implementation of most of the ongoing or planned activities. The Commission and the Agency are acutely aware of the difficulties faced by project beneficiaries in this respect. Our foremost concern, that we know you share, is the safety and protection of all the participants. This note aims to provide clarifications and general recommendations in order to support consortia in managing these exceptional circumstances.
 
+**DEMO**
+
+![Demo](https://github.com/abdulhyie/covid-19-managment-system-database-project/blob/master/imgs/01.JPG?raw=true)
+
+![Demo](https://github.com/abdulhyie/covid-19-managment-system-database-project/blob/master/imgs/02.JPG?raw=true)
+
+![Demo](https://github.com/abdulhyie/covid-19-managment-system-database-project/blob/master/imgs/03.JPG?raw=true)
+
+![Demo](https://github.com/abdulhyie/covid-19-managment-system-database-project/blob/master/imgs/04.JPG?raw=true)
+
+![Demo](https://github.com/abdulhyie/covid-19-managment-system-database-project/blob/master/imgs/05.JPG?raw=true)
+
+![Demo](https://github.com/abdulhyie/covid-19-managment-system-database-project/blob/master/imgs/06.JPG?raw=true)
 
 ## Solution
 
